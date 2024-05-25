@@ -1,5 +1,9 @@
 # Welcome to Orbitiumnos Docs
 
+Обо мне
+
+Я Федоров Николай, Data/Software Engineer
+
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
