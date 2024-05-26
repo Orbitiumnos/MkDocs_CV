@@ -1,6 +1,73 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: Orbitiumnos Site
+site_name: OrbiSpace
 site_url: https://mydomain.org/mysite
+copyright: Copyright &copy; 2020 - 2024 Nikolay Fedorov
+
+nav:
+  - Обо мне:
+    - index.md
+  - Блог:
+    - blog/index.md
+  - Библиотека:
+    - library/index.md
+
 theme:
   name: material
+
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+
+#  icon:
+#    previous: fontawesome/solid/angle-left
+#    next: fontawesome/solid/angle-right
+
+  features:
+    - navigation.tabs
+#    - navigation.tabs.sticky
+#    - navigation.sections
+#    - navigation.expand
+#    - navigation.path
+#    - navigation.prune
+
+  language: ru
+
+  palette:
+    scheme: default
+    primary: black
+
+#    - media: "(prefers-color-scheme: light)"
+#      primary: black
+#      scheme: default
+#      toggle:
+#        icon: material/brightness-7
+#        name: Switch to dark mode
+
+#    - media: "(prefers-color-scheme: dark)"
+#      primary: black
+#      scheme: slate
+#      toggle:
+#        icon: material/brightness-4
+#        name: Switch to system preference
+
+plugins:
+  - blog
+
+extra:
+
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/Orbitiumnos/
+    - icon: fontawesome/brands/github
+      link: https://github.com/Orbitiumnos/
+    - icon: fontawesome/solid/envelope
+      link: mailto:orbitiumnos@yandex.ru
+
+  alternate:
+    - name: Русский
+      link: /
+      lang: ru
+#    - name: English
+#      link: /en/
+#      lang: en
