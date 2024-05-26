@@ -2,6 +2,10 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+Обо мне:
+
+Меня зовут Федоров Николай. Я - Data/Software Engineer
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
