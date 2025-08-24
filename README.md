@@ -6,3 +6,5 @@
 - git push -u origin main
 
 ./.venv/Scripts/activate
+
+https://squidfunk.github.io/mkdocs-material/

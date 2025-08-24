@@ -56,6 +56,8 @@ plugins:
 
 extra:
 
+  homepage: https://orbitiumnos.github.io/MkDocs_CV/
+
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/Orbitiumnos/
