@@ -53,7 +53,7 @@ technologies in the modern economy” - https://knepublishing.com/index.php/KnE-
 
 ## 💻 Опыт работы и достижения
 
-### **ПАО Росбанк**
+### **Росбанк**
 
 * Июль 2018 — Июль 2019
 
@@ -128,8 +128,8 @@ _**Стажер Риск-Технолог**_
 ## 💡 Технологический стек
 
 - **Scala**: Spark, Cats
-- **SQL**: CRUD operations, Window-functions, regexp, Transaction, Query Plan
-- **Python**: asyncio, pyspark, airflow, pandas, json, ElementTree, sqlalchemy, pytest, pylint, pydantic, venv, requests
+- **SQL**: CRUD operations, window-functions, regexp, transactions, query plan cost optimization
+- **Python**: pyspark, airflow, asyncio, pandas, json, ElementTree, sqlalchemy, pytest, pylint, pydantic, venv, requests
 - **Документация**: Markdown, AsciiDoc, Yaml, Mermaid
 - **Базы Данных/Хранилища**: Oracle, Clickhouse, Greenplum (Postgresql), AWS S3
 - **Фреймворки**: Apache Airflow, Apache Kafka, Apache Spark, экосистема Hadoop (Hive, Yarn, HDFS), SQLAlchemy, SAS DIS/EG
