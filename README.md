@@ -1,10 +1,29 @@
-- mkdocs serve
-- mkdocs build
 
-- git remote add origin https://github.com/Orbitiumnos/MkDocs_CV.git
-- git branch -M main
-- git push -u origin main
+# Репозиторий с макетом CV на MkDocs Material
 
-./.venv/Scripts/activate
+URL: https://orbitiumnos.github.io/MkDocs_CV/
 
-https://squidfunk.github.io/mkdocs-material/
+Актуально на 25.08.2025
+
+## Документация библиотеки
+ - https://squidfunk.github.io/mkdocs-material/
+ - https://www.mkdocs.org/
+
+## Релиз-pipeline
+
+```bash
+mkdocs serve # для preview
+mkdocs build # обновить локально макет
+mkdocs gh-deploy --force # задеплоить изменения макета (в специальную ветку)
+```
+
+## Environment
+
+```bash
+./.venv/mkdocs/Scripts/activate
+```
+
+## Todo
+- [ ] восстановить страницу blog и courses
+- [ ]  
+- [ ]
