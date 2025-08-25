@@ -4,8 +4,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv/mkdoc" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 (MkDocs_CV)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (09_MkDocs_CV)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
