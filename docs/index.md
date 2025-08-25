@@ -125,7 +125,7 @@ technologies in the modern economy” - https://knepublishing.com/index.php/KnE-
 - **Git**: Git, Git LFS, DVC
 - **Прочее**: Docker, JupyterHub, Linux, MIT Kerberos
 
-### Soft-Skills
+### 🛂 Soft-Skills
 
 - Английский — B2
 - Французский — A2

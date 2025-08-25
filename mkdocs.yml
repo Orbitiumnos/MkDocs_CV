@@ -2,15 +2,15 @@
 
 site_name: OrbiSpace
 site_url: https://mydomain.org/mysite
-copyright: Copyright &copy; 2020 - 2024 Nikolay Fedorov
+copyright: Copyright &copy; 2020 - 2025 Nikolai Fedorov
 
 nav:
   - Обо мне:
     - index.md
-  - Блог:
-    - blog/index.md
-  - Библиотека:
-    - library/index.md
+#  - Блог:
+#    - blog/index.md
+#  - Библиотека:
+#    - library/index.md
 
 theme:
   name: material
@@ -34,25 +34,26 @@ theme:
   language: ru
 
   palette:
-    scheme: default
-    primary: black
 
-#    - media: "(prefers-color-scheme: light)"
-#      primary: black
-#      scheme: default
-#      toggle:
-#        icon: material/brightness-7
-#        name: Switch to dark mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
 
-#    - media: "(prefers-color-scheme: dark)"
-#      primary: black
-#      scheme: slate
-#      toggle:
-#        icon: material/brightness-4
-#        name: Switch to system preference
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
 
-plugins:
-  - blog
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+#plugins:
+#  - blog
 
 extra:
 
@@ -60,9 +61,9 @@ extra:
 
   social:
     - icon: fontawesome/brands/telegram
-      link: https://t.me/Orbitiumnos/
+      link: https://t.me/orbitiumnos/
     - icon: fontawesome/brands/github
-      link: https://github.com/Orbitiumnos/
+      link: https://github.com/orbitiumnos/
     - icon: fontawesome/solid/envelope
       link: mailto:orbitiumnos@yandex.ru
 
